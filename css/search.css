@@ -32,3 +32,7 @@ body {
     width: 128;
     padding: 16px;
 }
+
+.search .input:focus {
+    background-color: #FFFFFF
+}
