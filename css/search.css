@@ -33,6 +33,10 @@ body {
     padding: 16px;
 }
 
+.search. .input {
+    
+}
+
 .search .input:focus {
     background-color: #FFFFFF;
     outline: none;
