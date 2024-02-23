@@ -29,13 +29,15 @@ body {
     border: 0;
     font size: 18px;
     height: 50px;
-    width: 128;
+    width: 50px;
     padding: 16px;
 }
 
-.active .input {
-
+.search.active .input {
+    width: 128;
 }
+
+.search.active btn
 
 .search .input:focus {
     background-color: #FFFFFF;
