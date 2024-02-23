@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #99FFCC;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.search {
+    height: 50px;
+    position: relative;
+}
+.search .btn {
+    position: absolute;
+    top: 0;
+    left: 128;
+    font size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px
+}
+.search .input {
+    background color: white;
+    border: 0;
+    font size: 18px;
+    height: 50px;
+    width: 128;
+    padding: 16px;
+}
