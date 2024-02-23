@@ -16,14 +16,14 @@ body {
 }
 .search .btn {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0px;
     font size: 24px;
     background-color: white;
     border: 0;
     height: 50px;
     width: 50px;
-    transition: transform 0.5s ease;
+    transition: transform 0.25s ease;
 }
 .search .input {
     background color: white;
@@ -32,6 +32,7 @@ body {
     height: 50px;
     width: 50px;
     padding: 16px;
+    transition: width 0.25s ease;
 }
 
 .search.active .input {
@@ -43,6 +44,5 @@ body {
 }
 
 .search .input:focus {
-    background-color: #FFFFFF;
     outline: none;
 }
