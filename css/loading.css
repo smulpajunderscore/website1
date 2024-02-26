@@ -11,4 +11,20 @@ body {
 
 .loading_text {
     font-size: 32px;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 1;
+}
+
+.bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/fog_forest.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
+    filter: blur(0px);
+    z-index: 0;
 }
