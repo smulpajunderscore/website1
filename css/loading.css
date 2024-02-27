@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.loading_text {
+.loading-text {
     font-size: 32px;
     color: #FFFFFF;
     opacity: 1;
@@ -23,7 +23,7 @@ body {
     background-image: url("images/fog_forest.avif");
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
 
     filter: blur(0px);
     z-index: 0;
