@@ -27,4 +27,17 @@ body {
     cursor: pointer;
     flex: 1;
     margin: 8px;
+    position: relative;
+}
+
+.panel.active {
+    flex: 8;
+}
+
+.panel h3 {
+    font-size: 16px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    margin: 0;
 }
