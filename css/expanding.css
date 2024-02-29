@@ -30,6 +30,7 @@ body {
     flex: 1;
     margin: 8px;
     position: relative;
+    transition: flex 0.20s ease;
 }
 
 .panel.active {
