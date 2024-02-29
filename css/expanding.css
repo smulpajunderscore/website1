@@ -49,8 +49,11 @@ body {
     opacity: 1;
 }
 
-@media (max-width: 512) {
-    .panel:nth-of-type(4) {
+@media (max-width: 512px) {
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+    .panel:nth-of-type1) {
         display: none;
     }
 }
