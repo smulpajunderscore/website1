@@ -11,3 +11,14 @@ body {
     display: flex;
 
 }
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 64vh;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+}
