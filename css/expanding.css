@@ -40,4 +40,9 @@ body {
     bottom: 16px;
     left: 16px;
     margin: 0;
+    opacity: 0;
+}
+
+.panel.active h3 {
+    opacity: 1;
 }
