@@ -6,9 +6,18 @@ audio.forEach(sound => {
     btn.innerText = sound
 
     btn.addEventListener('click', () {
-        docuemtn.ElementByIf(sound).play
+        stop_audio()
+        document.getElementById(sound).play()
     })
     doscument.getElementById('buttons').appendChild(btn)
 
 
 })
+
+function stop_audio() {
+    sounds.forEach(sound => {
+        audio = document.getElementById(sound)
+        audio.pause()
+        audio.currentTime = 0
+    })
+}
