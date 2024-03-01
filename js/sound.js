@@ -5,7 +5,7 @@ audio.forEach(sound => {
     btn.classList.add('btn')
     btn.innerText = sound
 
-    doscument.getElementById('buttons').append childs
+    doscument.getElementById('buttons').appendChild(btn)
 
-    
+
 })
