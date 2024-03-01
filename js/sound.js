@@ -6,7 +6,7 @@ audio.forEach(sound => {
     btn.innerText = sound
 
     btn.addEventListener('click', () {
-
+        docuemtn.ElementByIf(sound).play
     })
     doscument.getElementById('buttons').appendChild(btn)
 
