@@ -5,12 +5,22 @@
 }
 
 body {
-    font-family: "VT323", monospace;
+    background-color: #99FFCC;
     height: 96vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-    background-color: #99FFCC;
 }
 
+.btn {
+    font-family: "VT323", monospace;
+    border: 0;
+    height: 64vh;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    margin: 8px;
+    position: relative;
+}
