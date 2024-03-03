@@ -13,12 +13,6 @@ body {
     margin: 0;
 }
 
-.sample {
-    height: 64vh;
-    border-radius: 16px;
-    color: white;
-    cursor: pointer;
-    flex: 1;
-    margin: 8px;
-    position: relative;
+.audio .sample {
+    border: 0;
 }
