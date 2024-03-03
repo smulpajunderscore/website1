@@ -14,5 +14,11 @@ body {
 }
 
 .buttons {
-    
+    height: 64vh;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    margin: 8px;
+    position: relative;
 }
