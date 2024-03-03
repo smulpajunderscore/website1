@@ -11,10 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    background-color: #99FFCC;
 }
 
-.audio {
-    border: 0;
-    font-family: "VT323", monospace;
-    background-color: red;
-}
