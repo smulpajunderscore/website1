@@ -1,21 +1,20 @@
-audio = ['1', '2', '3', '4', '5', '6']
+audio = ['alert', 'ds_death', 'explosion', 'miau', 'rdm', 'splat']
 
 audio.forEach(sound => {
     btn = document.createElement('button')
     btn.classList.add('btn')
     btn.innerText = sound
-
-    btn.addEventListener('click', () {
+    btn.addEventListener('click', () => {
         stop_audio()
         document.getElementById(sound).play()
     })
-    doscument.getElementById('buttons').appendChild(btn)
+    document.getElementById('buttons').appendChild(btn)
 })
 
 function stop_audio() {
-    sounds.forEach(sound => {
-        audio = document.getElementById(sound)
-        audio.pause()
-        audio.currentTime = 0
+    audio.forEach(sound => {
+        sample = document.getElementById(sound)
+        sample.pause()
+        sample.currentTime = 0
     })
 }
