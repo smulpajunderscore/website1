@@ -29,5 +29,5 @@ body {
 }
 
 .bth:hover {
-    background-color: #78DEAB;
+    opacity: 0.8;
 }
