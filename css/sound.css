@@ -25,5 +25,9 @@ body {
     flex: 1;
     margin: 8px;
     position: relative;
-    background-color: #66CC99
+    background-color: #66CC99;
+}
+
+.bth:hover {
+    background-color: #78DEAB;
 }
