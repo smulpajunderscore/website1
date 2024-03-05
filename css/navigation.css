@@ -44,3 +44,8 @@ body {
     background-color: rgba(0,0,0,0.25);
     z-index: -1;
 }
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0 0 16;
+}
