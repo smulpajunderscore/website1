@@ -8,12 +8,12 @@
 
 body {
     font-family: "VT323", monospace;
-    color: #99FFCC;
+    color: #222;
     padding-bottom: 64px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -47,5 +47,19 @@ body {
 
 .hero h1 {
     font-size: 48px;
-    margin: 0 0 16;
+    margin: 0 0 16px;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.content h2, .content h3 {
+    font-size: 128%;
+    margin: 16px 0 16px;
+}
+
+.content p {
+    color: #555;
 }
