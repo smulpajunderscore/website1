@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,5 +7,7 @@
 }
 
 body {
-    color: #99FFCC
+    font-family: "VT323", monospace;
+    color: #99FFCC;
+    padding-bottom: 64px;
 }
