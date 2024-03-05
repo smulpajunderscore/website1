@@ -14,5 +14,9 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url()
 }
