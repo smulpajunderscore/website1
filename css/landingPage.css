@@ -3,15 +3,24 @@
 * {
     box-sizing: border-box;
     font-family: "VT323", monospace;
-    color: #006666
+    color: #006666;
 }
 
 :root {
     --primary-color: #99FFCC;
     --secondary-color: #006666;
+    --modal-duration: 0.5s;
 }
 
 body {
     margin: 0;
+}
 
+nav {
+    background-color: #99FFCC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 256px;
+    height: 100%;
 }
