@@ -110,3 +110,8 @@ body {
 .nav.active .container {
     padding: 8px 0;
 }
+
+.nav a.current {
+    color: #99FFCC;
+    font-weight: bold;
+}
