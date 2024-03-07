@@ -82,3 +82,30 @@ body {
     padding: 16px 0;
     transition: all 0.5s ease-in-out;
 }
+
+.nav .ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav .active {
+    background-color: #FFFFFF;
+}
+
+.nav .active a {
+    color: #000000;
+}
+
+.nav .active .container {
+    
+}
