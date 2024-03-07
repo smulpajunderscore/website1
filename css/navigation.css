@@ -83,7 +83,7 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.nav .ul {
+.nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
