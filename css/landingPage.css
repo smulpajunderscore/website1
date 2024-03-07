@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    color: #006666
+}
+
+:root {
+    --primary-color: #99FFCC;
+    --secondary-color: #006666;
+}
+
+body {
+    margin: 0;
+
+}
