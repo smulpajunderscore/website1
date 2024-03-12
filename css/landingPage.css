@@ -23,4 +23,148 @@ nav {
     left: 0;
     width: 256px;
     height: 100%;
+    border-right: 4px solid rgba(0,102,102,0.25);
+    z-index: 2;
+    color: #006666;
+    transform: translateX(-100%);
+}
+
+nav .logo {
+    padding: 32px 0;
+    text-align: center;
+}
+
+nav .logo img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%
+}
+
+nav ul li a {
+    color: #006666;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 16px;
+    border-bottom: 4px solid rgba(0,102,102,0.25);
+}
+
+nav ul li:nth-of-type(1) {
+    border-top: 4px solid rgba(0,102,102,0.25);
+}
+
+header {
+    background-color: #99FFCC;
+    color: 006666;
+    font-size: 125%;
+    position: relative;
+    padding: 32px 16px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 32px 0;
+}
+
+button, input[tpye='submit'] {
+    background-color: #006666;
+    border: 0;
+    border-radius: 4px;
+    color: #99FFCC;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.toggle {
+    background-color: #006666;
+    opacity: 0.5;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.cta-btn {
+    padding: 12px 32px;
+    font-size: 24px;
+}
+
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    width: 1024px;
+    max-width: 100%;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,102,102,0.5);
+    display: none;
+}
+
+.modal {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 512px;
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 0 8px rgba(0, 64, 64, 0.5)
+}
+
+.modal-header {
+    background-color: #99FFCC;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    border-bottom: 2px solid #006666;
+}
+
+.modal-content {
+    padding: 16px;
+}
+
+.modal-form {
+    margin: 16px 0;
+}
+
+.modal-form label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    font-size: 24px;
 }
