@@ -124,6 +124,10 @@ button, input[tpye='submit'] {
     display: none;
 }
 
+.modal-container.show_modal {
+    display: block;
+}
+
 .modal {
     background-color: #FFFFFF;
     position: absolute;
