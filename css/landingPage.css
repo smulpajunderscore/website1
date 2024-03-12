@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: "VT323", monospace;
     color: #006666;
 }
 
@@ -13,7 +12,12 @@
 }
 
 body {
+    font-family: "VT323", monospace;
     margin: 0;
+}
+
+body.show_nav {
+    transform: translateX(256px);
 }
 
 nav {
