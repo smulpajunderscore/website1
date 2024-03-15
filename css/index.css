@@ -13,8 +13,8 @@ body {
 }
 
 :root {
-    --trans-x: 0;
-    --trans-y: 0;
+    --trans-x: 1;
+    --trans-y: 1;
 }
 
 
