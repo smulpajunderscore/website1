@@ -1,2 +1,2 @@
 
-document.documentElement.style.setProperty("--transx", "green");
+document.documentElement.style.setProperty("--transx", "");
