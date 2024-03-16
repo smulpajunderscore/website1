@@ -15,8 +15,26 @@ body {
 :root {
     --border-bottom: 100%;
     --border-right: 100%;
-    --trans-x: 5px;
-    --trans-y: 5px;
+    --x: 5px;
+    --y: 5px;
+    --x-new: 0px;
+    --y-new: 0px;
 }
 
+@keyframes x-move {
+    from: {
+        var(--x);
+    }
+    to: {
+        var(--x-new);
+    }
+}
 
+@keyframes y-move {
+    from: {
+        var(--y)
+    }
+    to: {
+        var(--y-new)
+    }
+}
