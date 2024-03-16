@@ -23,10 +23,10 @@ body {
 
 @keyframes x-move {
     from: {
-        var(--x);
+        left: var(--x);
     }
     to: {
-        var(--x-new);
+        left: var(--x-new);
     }
 }
 
