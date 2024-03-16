@@ -8,7 +8,7 @@ links.forEach(link => {
     btn.classList.add('btn')
     btn.innerText = link
     btn.addEventListener('click', () => {
-        location.href = 
+        location.href = document.getElementById(link);
     })
     document.getElementById('buttons').appendChild(btn)
 })
