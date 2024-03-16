@@ -1,8 +1,5 @@
 
-document.documentElement.style.setProperty("--transx", "");
-
 links = ['search', 'loading', 'expland', 'sound', 'navigate', 'landing']
-
 links.forEach(link => {
     btn = document.createElement('button')
     btn.classList.add('btn')
@@ -12,3 +9,9 @@ links.forEach(link => {
     })
     document.getElementById('buttons').appendChild(btn)
 })
+
+
+
+function switchDirection () {
+    if ()
+}
