@@ -32,9 +32,9 @@ body {
 
 @keyframes y-move {
     from: {
-        var(--y)
+        top: var(--y);
     }
     to: {
-        var(--y-new)
+        top: var(--y-new);
     }
 }
