@@ -8,7 +8,7 @@ links.forEach(link => {
     btn.classList.add('btn')
     btn.innerText = link
     btn.addEventListener('click', () => {
-        document.getElementById(sound).play()
+        location.href = 
     })
     document.getElementById('buttons').appendChild(btn)
 })
