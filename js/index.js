@@ -3,12 +3,11 @@ document.documentElement.style.setProperty("--transx", "");
 
 links = ['search', 'loading', 'expland', 'sound', 'navigate', 'landing']
 
-audio.forEach(sound => {
+links.forEach(link => {
     btn = document.createElement('button')
     btn.classList.add('btn')
-    btn.innerText = sound
+    btn.innerText = link
     btn.addEventListener('click', () => {
-        stop_audio()
         document.getElementById(sound).play()
     })
     document.getElementById('buttons').appendChild(btn)
