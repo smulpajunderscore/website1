@@ -21,6 +21,10 @@ body {
     --y-new: 0px;
 }
 
+.links {
+    
+}
+
 @keyframes x-move {
     from: {
         left: var(--x);

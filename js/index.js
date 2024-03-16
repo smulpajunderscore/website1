@@ -1,4 +1,5 @@
 
+// Make all the links buttons
 links = ['search', 'loading', 'expland', 'sound', 'navigate', 'landing']
 links.forEach(link => {
     btn = document.createElement('button')
@@ -13,5 +14,5 @@ links.forEach(link => {
 
 
 function switchDirection () {
-    if ()
+
 }
