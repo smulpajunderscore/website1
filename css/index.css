@@ -6,12 +6,6 @@
     padding: 0;
 }
 
-body {
-    font-family: "VT323", monospace;
-    color: #222;
-    padding-bottom: 64px;
-}
-
 :root {
     --border-bottom: 100%;
     --border-right: 100%;
