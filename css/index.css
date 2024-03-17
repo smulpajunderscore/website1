@@ -15,6 +15,11 @@
     --y-new: 0px;
 }
 
+.link {
+    animation: x-move ;
+    animation-iteration-count: infinite;
+}
+
 .btn {
     font-family: "VT323", monospace;
     font-size: 12;
