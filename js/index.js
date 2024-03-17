@@ -11,7 +11,11 @@ links.forEach(link => {
     document.getElementById('buttons').appendChild(btn)
 })
 
+var element = document.getElementById('root'),
+  style = window.getComputedStyle(element);
 
+var borderBottom = style.border-bottom
+var borderRight = style.border-right
 
 function switchDirection () {
 
