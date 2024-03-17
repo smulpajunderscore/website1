@@ -21,9 +21,19 @@ body {
     --y-new: 0px;
 }
 
-.links {
-    
+.btn {
+    font-family: "VT323", monospace;
+    font-size: 12;
+    border: 0;
+    height: 24px;
+    width: 64px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+    background-color: #66CC99;
 }
+
 
 @keyframes x-move {
     from: {
