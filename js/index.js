@@ -11,16 +11,18 @@ links.forEach(link => {
     document.getElementById('buttons').appendChild(btn)
 })
 
+// Animate the buttons
 var element = document.getElementById('root'),
   style = window.getComputedStyle(element);
-
 var currentX = style.x
 var currentY = style.y
 var borderBottom = style.border-bottom;
 var borderRight = style.border-right;
 
-function glide () {
-  
+var change = 
+
+function getCoordinates () {
+  element.setProperty('--x-new', currentX+)
 }
 
 function switchDirection () {
