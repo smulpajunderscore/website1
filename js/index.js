@@ -18,5 +18,5 @@ var borderBottom = style.border-bottom
 var borderRight = style.border-right
 
 function switchDirection () {
-
+    
 }
