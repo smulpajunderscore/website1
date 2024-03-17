@@ -14,9 +14,14 @@ links.forEach(link => {
 var element = document.getElementById('root'),
   style = window.getComputedStyle(element);
 
+var currentX = style.x
+var currentY = style.y
+var borderBottom = style.border-bottom;
+var borderRight = style.border-right;
 
-var borderBottom = style.border-bottom
-var borderRight = style.border-right
+function glide () {
+  
+}
 
 function switchDirection () {
 

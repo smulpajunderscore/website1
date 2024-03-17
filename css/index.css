@@ -9,8 +9,8 @@
 :root {
     --border-bottom: 100%;
     --border-right: 100%;
-    --x: 5px;
-    --y: 5px;
+    --x: 0px;
+    --y: 0px;
     --x-new: 0px;
     --y-new: 0px;
 }
