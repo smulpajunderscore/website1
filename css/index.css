@@ -16,7 +16,9 @@
 }
 
 .link {
-    animation: x-move ;
+    animation: x-move 0.03;
+    animation-iteration-count: infinite;
+    animation: y-move 0.03;
     animation-iteration-count: infinite;
 }
 
