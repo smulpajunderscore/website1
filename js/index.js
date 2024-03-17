@@ -19,10 +19,11 @@ var currentY = style.y
 var borderBottom = style.border-bottom;
 var borderRight = style.border-right;
 
-var change = 
+var change = 5;
 
 function getCoordinates () {
-  element.setProperty('--x-new', currentX+)
+  element.setProperty('--x-new', currentX + change)
+  element.setProperty('--y-new', currentX + change)
 }
 
 function switchDirection () {
