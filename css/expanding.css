@@ -17,6 +17,9 @@ body {
 
 .redirect {
     position: relative;
+    top: 0;
+    left: 0;
+    font-size: 12;
 }
 
 .container {
