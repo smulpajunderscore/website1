@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+.redirect {
+    position: relative;
+}
+
 .container {
     width: 64vw;
     display: flex;
